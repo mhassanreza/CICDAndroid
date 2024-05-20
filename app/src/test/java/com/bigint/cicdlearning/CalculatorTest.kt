@@ -1,0 +1,18 @@
+package com.bigint.cicdlearning
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class CalculatorTest {
+    private val calculator = Calculator()
+
+    @Test
+    fun testAdd() {
+        assertEquals(4, calculator.add(2, 2))
+    }
+
+    @Test
+    fun testSubtract() {
+        assertEquals(0, calculator.subtract(4, 4))
+    }
+}
