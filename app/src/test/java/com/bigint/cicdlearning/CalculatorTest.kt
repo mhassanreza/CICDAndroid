@@ -13,6 +13,6 @@ class CalculatorTest {
 
     @Test
     fun testSubtract() {
-        assertEquals(0, calculator.subtract(5, 4))
+        assertEquals(1, calculator.subtract(5, 4))
     }
 }
